@@ -31,13 +31,14 @@
      place-items: center;
  }
 
- .slide-in {
+ .slide-in:hover {
      margin-left: -100%;
      animation: slide-in 1.5s forwards;
  }
 
- .fade-in {
-     animation: fade-in 2s;
+ .fade-in:hover {
+     animation: fade-in 10s;
+
  }
 
  @keyframes fade-in {
@@ -237,7 +238,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background-image: url("/Task-10/sunbackground.png");
+     background-image: url("sunbackground.png");
      background-repeat: no-repeat;
      padding-left: 150px;
  }
@@ -315,7 +316,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background: url("/Task-10/sunbackground.png") no-repeat;
+     background: url("sunbackground.png") no-repeat;
      padding-left: 250px;
 
  }
@@ -381,7 +382,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background-image: url("/Task-10/sunbackground.png");
+     background-image: url("sunbackground.png");
      background-repeat: no-repeat;
      padding-left: 100px;
  }
@@ -494,7 +495,7 @@
      left: 100%;
      width: 70px;
      height: 70px;
-     background: url('/Task-10/racaptchta.png') no-repeat center;
+     background: url('racaptchta.png') no-repeat center;
      background-size: contain;
  }
 
@@ -514,20 +515,20 @@
 
      .foreground-image2 {
          background-size: 300px;
-         background-image: url(/Task-10/sunbackground\ -container-1-copy.png);
+         background-image: url(sunbackground\ -container-1-copy.png);
          border-radius: 35%;
          padding: 50px 00px;
      }
 
      .image-c-7-2 {
          background-size: 300px;
-         background-image: url(/Task-10/sunbackground\ -container-1-copy.png);
+         background-image: url(sunbackground\ -container-1-copy.png);
          position: relative;
          left: -100px;
      }
 
      .foreground-image-c-5-1 {
-         background-image: url("/Task-10/sunbackground.png");
+         background-image: url("sunbackground.png");
          background-repeat: no-repeat;
          border-radius: 30%;
          margin: 0px;
@@ -543,7 +544,7 @@
          width: 400px;
          background-repeat: no-repeat;
          padding: 0px;
-         background-image: url(/Task-10/final-project-images/media\ queries/Elephant-final);
+         background-image: url(final-project-images/media\ queries/Elephant-final);
      }
 
      .row-c2,
@@ -701,19 +702,6 @@
      }
  }
 
- @keyframes scale {
-     0% {
-         transform: scale(0);
-     }
-
-     100% {
-         transform: scale(1);
-     }
- }
-
- .scale {
-     animation: scale 1s;
- }
 
  @keyframes rotate {
      0% {
@@ -725,6 +713,6 @@
      }
  }
 
- .rotate {
+ .rotate:hover {
      animation: rotate 1s;
  }

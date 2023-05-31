@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes scale {
+            0% {
+                transform: scale(0);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+
+        .slide-in {
+            animation-name: slideIn;
+        }
+
+        .fade-in {
+            animation-name: fadeIn;
+        }
+
+        .rotate {
+            animation-name: rotate;
+        }
+
+        .scale {
+            animation-name: scale;
+        }
+
+        /* Adjust the styles as needed */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #e91e63;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animated slide-in box"></div>
+    <div class="animated fade-in box"></div>
+    <div class="animated rotate box"></div>
+    <div class="animated scale box"></div>
+</body>
+
+</html>

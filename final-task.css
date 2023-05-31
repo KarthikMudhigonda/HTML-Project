@@ -18,10 +18,7 @@
      font-size: 34px;
  }
 
- .fa-laptop,
- .fa-tablet-screen-button,
- .fa-mobile-screen-button,
- .fa-mobile-screen-button {
+ .fa-solid {
      color: black;
  }
 
@@ -601,6 +598,16 @@
      .row-c2 {
          padding-left: 40px;
          grid-row: 500px;
+     }
+
+     .container4 {
+         height: 290vh;
+         background-color: orange;
+     }
+
+     .row-c4 {
+         height: 290vh;
+         margin-bottom: 20px;
      }
 
      .sub-container4 {

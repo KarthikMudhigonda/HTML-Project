@@ -235,7 +235,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background-image: url("sunbackground.png");
+     background-image: url("final-project-images/sunbackground.png");
      background-repeat: no-repeat;
      padding-left: 150px;
  }
@@ -313,7 +313,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background: url("sunbackground.png") no-repeat;
+     background: url("final-project-images/sunbackground.png") no-repeat;
      padding-left: 250px;
 
  }
@@ -379,7 +379,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background-image: url("sunbackground.png");
+     background-image: url("final-project-images/sunbackground.png");
      background-repeat: no-repeat;
      padding-left: 100px;
  }
@@ -492,7 +492,7 @@
      left: 100%;
      width: 70px;
      height: 70px;
-     background: url('racaptchta.png') no-repeat center;
+     background: url('final-project-images/racaptchta.png') no-repeat center;
      background-size: contain;
  }
 
@@ -556,20 +556,20 @@
 
      .foreground-image2 {
          background-size: 300px;
-         background-image: url(sunbackground\ -container-1-copy.png);
+         background-image: url(final-project-images/sun_bg.png);
          border-radius: 35%;
          padding: 50px 00px;
      }
 
      .image-c-7-2 {
          background-size: 300px;
-         background-image: url(sunbackground\ -container-1-copy.png);
+         background-image: url(final-project-images/sun_bg.png);
          position: relative;
          left: -100px;
      }
 
      .foreground-image-c-5-1 {
-         background-image: url("sunbackground.png");
+         background-image: url("final-project-images/sunbackground.png");
          background-repeat: no-repeat;
          border-radius: 30%;
          margin: 0px;
